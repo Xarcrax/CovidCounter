@@ -23,9 +23,9 @@ This work is lisc....###
 //Replace -1 with no. of your reset button (-1 if you don't have a button on your OLED)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-//Replace SSID with your SSID(Name of Network) and password with your password
-const char *ssid = "vRuchakhiLand_EXT";
-const char *password = "Qs7ssbtv7sth";
+//Replace SSID with your SSID(Name of Network) and Password with your password
+const char *ssid = "SSID";
+const char *password = "Password";
 const char *server = "corona.lmao.ninja";
 //HTTPClient http;
 StaticJsonDocument<900> parsed; //Memory pool
